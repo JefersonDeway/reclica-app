@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+      <ion-title>My pickup-calls</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-pickup-call-card status="hold" updatedAt="25/08/2021 16:29" createdAt="23/08/2021" notes="Material não recicalvel."></app-pickup-call-card>
+
+  <app-pickup-call-card status="processing" updatedAt="24/08/2021 10:34" createdAt="23/08/2021" notes="Material reciclavel, caçamba cheia.."></app-pickup-call-card>
+
+  <app-pickup-call-card status="finished" updateAt="23/04/2021 18:57" createdAt="21/04/2021"></app-pickup-call-card>
+
+  <ion-card>
+    <ion-card-content>
+        <ion-item lines="none">
+          <ion-icon name="checkmark-circle-outline" slot="start" color="success"></ion-icon>
+          <ion-label>
+            Finalizado
+           <p>21/04/2021 16:45:34</p>
+          </ion-label>
+        </ion-item>
+
+        <ion-item lines="none">
+          <ion-label>
+            <p> Criado em 19/04/2021</p>
+            <p>Notas: Material não reciclavel junto.</p>
+          </ion-label>
+        </ion-item>
+
+        <ion-item lines="none">
+          <ion-icon name="trophy" slot="start" color="Warning-tint"></ion-icon>
+          <ion-label color="warning">R$35,45</ion-label>
+        </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
